@@ -29,10 +29,20 @@ header nav .nav-right-section {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
 }
 
 nav .nav-right-section a {
     margin-right: 0.9rem;
     color: #000000;
+}
+
+nav .nav-right-section .menu-icono {
+    background-image: url('https://cdn.icon-icons.com/icons2/3297/PNG/512/ui_menu_grid_icon_208676.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
 }
