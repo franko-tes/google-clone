@@ -30,12 +30,13 @@ header nav .nav-right-section {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    padding-top: 1.5rem;
-    padding-right: 1rem;
+    padding-top: 1.3rem;
+    font-size: 1rem;
+    align-items: center;
 }
 
 nav .nav-right-section a {
-    margin-right: 0.9rem;
+    margin-right: 1.5rem;
     color: #fff;
 }
 
@@ -44,7 +45,13 @@ nav .nav-right-section .menu-icono {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     margin-right: 0.9rem;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    width: 45%;
+    margin-left: 0.7rem;
 }
