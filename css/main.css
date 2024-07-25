@@ -34,12 +34,10 @@ header nav .nav-right-section {
     font-size: 1rem;
     align-items: center;
 }
-
 nav .nav-right-section a {
     margin-right: 1.5rem;
     color: #fff;
 }
-
 nav .nav-right-section .menu-icono {
     background-image: url('../imagenes/icono.png');
     background-repeat: no-repeat;
@@ -49,9 +47,25 @@ nav .nav-right-section .menu-icono {
     height: 2rem;
     margin-right: 0.9rem;
 }
-
 nav .nav-right-section img {
     border-radius: 50%;
     width: 45%;
     margin-left: 0.7rem;
+}
+
+/*--MAIN SECTION --*/
+
+main {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+main .main-logo img {
+    width: 43%;
 }
