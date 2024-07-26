@@ -59,13 +59,33 @@ main {
     margin-top: 6rem;
     text-align: center;
 }
-
 main .main-logo {
     width: 75%;
     margin: auto;
     margin-bottom: 3rem;
 }
-
 main .main-logo img {
     width: 43%;
+}
+main .main-input {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+main .main-input-container {
+    width: 80%;
+    margin: auto;
+    border-radius: 100px;
+    border: 1px solid #5f6368;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input-container input {
+    width: 70%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background-color: #202124;
+    caret-color: #fff;
 }
