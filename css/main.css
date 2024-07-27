@@ -78,7 +78,7 @@ main .main-input-container {
     border-radius: 100px;
     border: 1px solid #5f6368;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 main .main-input-container input {
@@ -86,6 +86,27 @@ main .main-input-container input {
     height: 4rem;
     border: none;
     outline: none;
-    background-color: #202124;
+    background-color: inherit;
     caret-color: #fff;
+    color: #fff;
+}
+main .main-input-container:hover {
+    background-color: #303134;
+    box-shadow: 0 1px 2px 0 #000;
+    border-color: #333;
+}
+main .main-input .search-icon {
+    background: url('../imagenes/search.png') center center / contain no-repeat;
+    width: 2rem;
+    height: 2rem;
+}
+main .main-input .micro-icon {
+    background: url('../imagenes/micro2.png') center center / contain no-repeat;
+    width: 2rem;
+    height: 2rem;
+}
+main .main-input .lens-icon {
+    background: url('../imagenes/lens2.png') center center / contain no-repeat;
+    width: 2.5rem;
+    height: 2.5rem;
 }
