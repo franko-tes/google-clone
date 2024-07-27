@@ -110,3 +110,24 @@ main .main-input .lens-icon {
     width: 2.5rem;
     height: 2.5rem;
 }
+main .main-buttons {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 3.5rem;
+    background-color: #303134;
+    border: 1px solid #303134;
+    font-size: 1.3rem;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 1.5rem;
+    margin-right: 1rem;
+}
+main .main-buttons button:hover {
+    border: 0.1px solid #666;
+}
