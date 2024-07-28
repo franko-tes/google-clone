@@ -126,7 +126,7 @@ main .main-buttons button {
     color: #fff;
     border-radius: 5px;
     padding: 0 1.5rem;
-    margin-right: 1rem;
+    margin: 0.5rem;
 }
 main .main-buttons button:hover {
     border: 0.1px solid #666;
