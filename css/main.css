@@ -165,16 +165,16 @@ footer .footer-options {
 footer .footer-options .footer-left {
     display: flex;
     justify-content: center;
+    flex-flow: wrap;
     list-style: none;
     padding: 1.5rem;
 }
 footer .footer-left a {
     color: #fff;
-    margin-right: 2rem;
+    margin: 1rem;
 }
 footer .footer-left a:hover {
     color: #fff;
-    margin-right: 2rem;
     text-decoration: underline;
 }
 footer .footer-options .footer-right {
@@ -185,10 +185,9 @@ footer .footer-options .footer-right {
 }
 footer .footer-right a {
     color: #fff;
-    margin-right: 2rem;
+    margin: 1rem;
 }
 footer .footer-right a:hover {
     color: #fff;
-    margin-right: 2rem;
     text-decoration: underline;
 }
