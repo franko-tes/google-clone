@@ -144,3 +144,51 @@ main .main-language a:hover {
 }
 
 /*-- FOOTER SECTION --*/
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #171717;
+    color: #fff;
+    font-size: 1.1rem;
+}
+footer .footer-country {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #313335;
+}
+footer .footer-options {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+footer .footer-options .footer-left {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1.5rem;
+}
+footer .footer-left a {
+    color: #fff;
+    margin-right: 2rem;
+}
+footer .footer-left a:hover {
+    color: #fff;
+    margin-right: 2rem;
+    text-decoration: underline;
+}
+footer .footer-options .footer-right {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1.5rem;
+}
+footer .footer-right a {
+    color: #fff;
+    margin-right: 2rem;
+}
+footer .footer-right a:hover {
+    color: #fff;
+    margin-right: 2rem;
+    text-decoration: underline;
+}
