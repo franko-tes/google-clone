@@ -209,6 +209,7 @@ footer .footer-right a:hover {
     header nav .nav-right-section {
         padding-top: 1.2rem;
         font-size: 1rem;
+        margin-right: 0.8rem;
     }
     nav .nav-right-section .menu-icono {
         width: 1.7rem;
@@ -217,7 +218,6 @@ footer .footer-right a:hover {
     }
     nav .nav-right-section img {
         width: 70%;
-        padding-right: 0.5rem;
     }
 
     /*-- MAIN SECTION --*/
@@ -256,5 +256,71 @@ footer .footer-right a:hover {
     /*-- FOOTER SECTION --*/
     footer {
         font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    /*-- HEADER SECTION --*/
+    header nav .nav-right-section {
+        padding-top: 1.2rem;
+        font-size: 1.4rem;
+        margin-right: 1.5rem;
+    }
+    nav .nav-right-section .menu-icono {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin: 0rem 1rem 0rem 1.5rem;
+    }
+    nav .nav-right-section img {
+        width: 80%;
+    }
+
+    /*-- MAIN SECTION --*/
+    main .main-logo img {
+        width: 35%;
+    }
+    main .main-logo {
+        margin-bottom: 2rem;
+    }
+    main .main-input {
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+    main .main-input-container input {
+        height: 4.2rem;
+    }
+    main .main-input .search-icon {
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+    main .main-input .micro-icon {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    main .main-input .lens-icon {
+        width: 2.6rem;
+        height: 2.6rem;
+    }
+    main .main-buttons {
+        margin-bottom: 1.8rem;
+    }
+    main .main-buttons button {
+        font-size: 1.5rem;
+        padding: 0.8rem 1.6rem;
+        margin-right: 1rem;
+    }
+    main .main-language p {
+        font-size: 1.4rem;
+    }
+
+    /*-- FOOTER SECTION --*/
+    footer {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    footer .footer-options {
+        display: flex;
+        justify-content: space-between;
     }
 }
