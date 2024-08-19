@@ -136,7 +136,6 @@ main .main-buttons button {
     color: var(--color-letra);
     border-radius: 1px;
     padding: 0.4rem 0.8rem;
-    margin: rem;
 }
 main .main-buttons button:hover {
     border: 0.1px solid var(--color-borde-boton);
@@ -200,4 +199,62 @@ footer .footer-right a {
 footer .footer-right a:hover {
     color: var(--color-letra);
     text-decoration: underline;
+}
+
+/*-- MEDIA QUERIES --*/
+
+@media screen and (min-width: 600px) {
+
+    /*-- HEADER SECTION --*/
+    header nav .nav-right-section {
+        padding-top: 1.2rem;
+        font-size: 1rem;
+    }
+    nav .nav-right-section .menu-icono {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-left: 1.5rem;
+    }
+    nav .nav-right-section img {
+        width: 70%;
+        padding-right: 0.5rem;
+    }
+
+    /*-- MAIN SECTION --*/
+    main .main-logo img {
+        width: 55%;
+    }
+    main .main-input {
+        margin-bottom: 1.6rem;
+    }
+    main .main-input-container input {
+        height: 4rem;
+    }
+    main .main-input .search-icon {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    main .main-input .micro-icon {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    main .main-input .lens-icon {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    main .main-buttons {
+        margin-bottom: 1.6rem;
+    }
+    main .main-buttons button {
+        font-size: 1rem;
+        padding: 0.8rem 1.6rem;
+    }
+    main .main-language p {
+        font-size: 1rem;
+    }
+
+    /*-- FOOTER SECTION --*/
+    footer {
+        font-size: 1rem;
+    }
 }
